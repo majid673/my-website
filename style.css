@@ -13,6 +13,14 @@ body {
     text-align: center;
 }
 
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px; 
+    width: 80%;
+    margin: auto;
+}
+
 header {
     background-color: #333;
     color: white;
