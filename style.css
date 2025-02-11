@@ -68,4 +68,22 @@ footer {
     background: #007bff;
 }
 
+.contact-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #0056b3;
+}
 
