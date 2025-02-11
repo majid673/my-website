@@ -50,3 +50,22 @@ footer {
     bottom: 0;
     border-radius: 10px 10px 0 0;
 }
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    background: #333;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.social-links a:hover {
+    background: #007bff;
+}
+
+
