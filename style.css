@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-image: url('background.jpg');
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
@@ -23,6 +23,8 @@ body {
 }
 .text {
     font-size: 18px;
+    max-width: 600px;
+    margin: auto;
 }
 
 
@@ -42,7 +44,7 @@ h1 {
 .about, .portfolio, .contact {
     margin: 20px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.5); 
+    background: rgba(255, 255, 255, 0.7); 
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
@@ -52,11 +54,24 @@ footer {
     background: rgba(34, 34, 34, 0.8);
     color: white;
     padding: 10px;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
     border-radius: 10px 10px 0 0;
+    text-align: center;
 }
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+footer a:hover {
+    color: #007bff;
+}
+
+
 .social-links {
     text-align: center;
     margin-top: 20px;
