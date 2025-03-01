@@ -40,9 +40,9 @@ Feel free to reach out to me if you have any questions or want to collaborate:
 
 - **Email**: [arashar905@gmail.com](mailto:arashar905@gmail.com)
 - **GitHub**: [majid673](https://github.com/majid673)
-- **LinkedIn**: [arash-programmer](https://linkedin.com/in/arash-programmer)
-- **Twitter**: [arash_programmer](https://twitter.com/arash_programmer)
-- **Instagram**: [arash_programmer](https://instagram.com/arash_programmer)
+- **LinkedIn**: ...................
+- **Twitter**: ....................
+- **Instagram**: ..................
 
 ---
 
