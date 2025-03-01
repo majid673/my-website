@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Arash, a Python programmer and web designer, showcasing projects and skills.">
+    <meta name="keywords" content="Arash, Python programmer, web designer, portfolio, projects, contact">
+    <meta name="author" content="Arash">
+    <meta property="og:title" content="Arash | Python Programmer & Web Designer">
+    <meta property="og:description" content="Personal website of Arash, showcasing projects and skills in Python programming and web design.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    <title>Arash | Python Programmer & Web Designer</title>
+    <link rel="icon" type="image/x-icon" href="https://via.placeholder.com/32">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Hello! I am Arash</h1>
+        <p>Python programmer and web designer</p>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="image">
+                    <img src="./images/profile.jpg" alt="My Profile Picture">
+                </div>
+                <div class="text">
+                    <h2>About Me</h2>
+                    <p>I love programming and web design and am fluent in various languages.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Here are some of my projects showcasing my skills in programming and web design.</p>
+            <div class="projects">
+                <article class="project">
+                    <img src="https://via.placeholder.com/200" alt="Project Calculator - A simple calculator web application">
+                    <h3>Project Calculator</h3>
+                    <p>A simple calculator web application built with HTML, CSS, and JavaScript for performing basic arithmetic operations.</p>
+                    <a href="https://github.com/majid673/project-calculator" target="_blank" class="btn">View on GitHub</a>
+                </article>
+                <article class="project">
+                    <img src="https://via.placeholder.com/200" alt="Project Task Manager - A task management application">
+                    <h3>Project Task Manager</h3>
+                    <p>A task management application to help users organize and track their daily tasks efficiently.</p>
+                    <a href="https://github.com/majid673/project-task-manager" target="_blank" class="btn">View on GitHub</a>
+                </article>
+                <article class="project">
+                    <img src="https://via.placeholder.com/200" alt="Project Manager - A project management web application">
+                    <h3>Project Manager</h3>
+                    <p>A web application for managing projects and tasks with user roles, task deadlines, email reminders, and reports with charts.</p>
+                    <a href="https://github.com/majid673/project-manager" target="_blank" class="btn">View on GitHub</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: arashar905@gmail.com</p>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <span id="email-error" style="display: none; color: red;"></span>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+                <p id="form-message" style="display: none;"></p>
+            </form>
+            <div class="contact-buttons">
+                <a href="mailto:arashar905@gmail.com" class="btn">Email Me</a>
+                <a href="https://wa.me/1234567890" class="btn">WhatsApp</a>
+                <a href="tel:+1234567890" class="btn">Call Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/majid673" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/arash-programmer" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/arash_programmer" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/arash_programmer" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
